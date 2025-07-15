@@ -7,7 +7,7 @@ output "rg" {
 # }
 
 output "clusterconfig" {
-  value = data.ibm_container_cluster_config.cluster_config
+  value = data.ibm_container_cluster_config.cluster_config.id
 }
 
 # output "namespaceinfo" {

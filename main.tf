@@ -61,8 +61,8 @@ provider "kubernetes" {
 }
 
 
-resource "kubernetes_namespace" "example" {
-  metadata {
-    name = "jej-eg-namespace"
-  }
-}
+# resource "kubernetes_namespace" "example" {
+#   metadata {
+#     name = "jej-eg-namespace"
+#   }
+# }
